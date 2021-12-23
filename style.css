@@ -14,7 +14,7 @@ svg{
 }
 
 ::placeholder{
-  background-image: url("/assets/search-solid.svg");
+  background-image: url("assets/search-solid.svg");
   background-repeat: no-repeat;
   text-align: center;
   font-size: 14px;
@@ -31,9 +31,9 @@ input.empty {
     background-color: #FAFAFA;
 }
 
-input.empty::before{
+/* input.empty::before{
   content: url('assets/search-solid.svg');
-}
+} */
 
   .middlearea{
     max-height: 200px !important;
